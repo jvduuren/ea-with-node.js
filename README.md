@@ -22,7 +22,7 @@ Starts EA with Node.js on a server in the background allowing to use the API of 
 - Windows Computer
 - Sparx Systems Enterprise Architect installed
 - Node.js installed
-- ++`git clone https://github.com/jvduuren/ea-with-node.js.git`**
+- **`git clone https://github.com/jvduuren/ea-with-node.js.git`**
 - npm 'winax' installed 
   **`npm install winax`**
 
