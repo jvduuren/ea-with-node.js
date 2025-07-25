@@ -12,16 +12,16 @@ try {
         console.log(`Opening EA database ${EA_DB_FILE} ...`);
         isEAFileOpen = ea.OpenFile(EA_DB_FILE);
         if (isEAFileOpen === true) {
-            // get root package and display some properties
-            const rootPkg = ea.GetPackageByID(2);
-            if (rootPkg) {
+            // get package and display some properties
+            const pkg = ea.GetPackageByID(2);
+            if (pkg) {
                 console.log(`=======================================================`);
-                console.log(`package name : ${rootPkg.Name}`);
-                console.log(`package notes: ${rootPkg.Notes}`);
-                console.log(`package GUID : ${rootPkg.PackageGUID}`);
-                console.log(`creation date: ${rootPkg.Created}`);
-                console.log(`author       : ${rootPkg.Element.Author}`);
-                console.log(`stereotype   : ${rootPkg.Element.Stereotype}`);
+                console.log(`package name : ${pkg.Name}`);
+                console.log(`package notes: ${pkg.Notes}`);
+                console.log(`package GUID : ${pkg.PackageGUID}`);
+                console.log(`creation date: ${pkg.Created}`);
+                console.log(`author       : ${pkg.Element.Author}`);
+                console.log(`stereotype   : ${pkg.Element.Stereotype}`);
                 console.log(`=======================================================`);
             }
         }
