@@ -6,7 +6,6 @@ Starts EA with Node.js on a server in the background allowing to use the API of 
 ## Advantages:
 - you can use any NPM package together with EA
 - run EA batch jobs during the night like exports or publications
-- allows you to build a REST-API for EA
 
 ## Usage:
 **`node .\simple-example.js`**
